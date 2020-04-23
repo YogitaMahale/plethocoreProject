@@ -178,6 +178,60 @@ namespace plethocoreProject.Controllers
                 return View();
             }
         }
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            var emp = _employeeservices.GetById(id);
+            if (emp == null)
+            {
+                return NotFound();
+            }
+            EmployeeDetailstViewModel model = new EmployeeDetailstViewModel()
+            {
+                Id = emp.Id,
+                EmployeeNo = emp.EmployeeNo,
+                FullName = emp.FullName,
+                Gender = emp.Gender,
+                ImageUrl = emp.ImageUrl,
+                DOB = emp.DOB,
+                DateJoined = emp.DateofJoined,
+                Phone = emp.Phone,
+                Designation = emp.Designation,
+                Email = emp.Email,
+                NationalInsuranceNo = emp.NationalInsuranceNo,
+                PaymentMethod = emp.paymentMethod,
+                StudentLoan = emp.studentLoan,
+                UnionMember = emp.UnionMember,
+                Address = emp.Address,
+                City = emp.City,
+                Postcode = emp.PostalCode
+            };
+            return View(model);
+        }
 
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var emp = _employeeservices.GetById(id);
+            if (emp == null)
+            {
+                return NotFound();
+
+            }
+            EmployeeDeleteViewModel model = new EmployeeDeleteViewModel()
+            {
+                Id = emp.Id,
+                FullName = emp.FullName
+            };
+
+
+            return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+            await _employeeservices.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
