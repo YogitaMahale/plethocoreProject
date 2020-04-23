@@ -1,0 +1,15 @@
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.deps.json
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.runtimeconfig.json
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.runtimeconfig.dev.json
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.dll
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.pdb
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.entity.dll
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\bin\Debug\netcoreapp3.1\plethocoreProject.entity.pdb
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.csprojAssemblyReference.cache
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.csproj.CoreCompileInputs.cache
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.AssemblyInfoInputs.cache
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.AssemblyInfo.cs
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.csproj.CopyComplete
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.dll
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.pdb
+E:\Project Repositories\pletho Project\plethocoreProject.persistence\obj\Debug\netcoreapp3.1\plethocoreProject.persistence.genruntimeconfig.cache
