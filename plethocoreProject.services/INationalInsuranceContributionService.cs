@@ -4,7 +4,7 @@ using System.Text;
 
 namespace plethocoreProject.services
 {
-    interface INationalInsuranceContributionService
+   public  interface INationalInsuranceContributionService
     {
         decimal NIContribution(decimal totalAmount);
     }

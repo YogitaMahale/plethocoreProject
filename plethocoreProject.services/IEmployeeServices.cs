@@ -1,4 +1,5 @@
-﻿using plethocoreProject.entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using plethocoreProject.entity;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,5 +16,6 @@ namespace plethocoreProject.services
         Decimal UnionFees(int id);
         decimal StudentLoadRepaymentAmount(int id, decimal TotalAmt);
         IEnumerable<Employee> GetAll();
+        IEnumerable<SelectListItem> GetAllEmployeeforPayroll();
     }
 }

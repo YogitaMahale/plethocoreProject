@@ -4,7 +4,7 @@ using System.Text;
 
 namespace plethocoreProject.services
 {
-    interface ITaxservices
+    public interface ITaxservices
     {
         decimal TaxAmount(decimal TotalAmount);
     }

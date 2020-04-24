@@ -16,6 +16,7 @@ namespace plethocoreProject.entity
 
         [MaxLength(150)]
         public string FullName { get; set; }
+        public string NiNo { get; set; }
         public DateTime PayDate { get; set; }
         public string PayMonth { get; set; }
 

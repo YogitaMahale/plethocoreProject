@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using plethocoreProject.persistence;
 using System.Linq;
 using plethocoreProject.services;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace paycompute.services.Implementation
 {
@@ -77,9 +78,18 @@ namespace paycompute.services.Implementation
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
+            return fee;
         }
 
-     
+        public IEnumerable<SelectListItem> GetAllEmployeeforPayroll()
+        {
+            return GetAll().Select(x => new SelectListItem()
+            {
+                Text=x.FullName,
+                Value=x.Id.ToString()
+            });
+        }
     }
 }

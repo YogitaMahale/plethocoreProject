@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using plethocoreProject.entity;
 namespace plethocoreProject.services
 {
-    interface IpaycompuatuationServices
+   public  interface IpaycompuatuationServices
     {
         Task CreateAsync(PaymentRecord paymentRecord);
         PaymentRecord GetById(int id);
