@@ -76,13 +76,14 @@ namespace plethocoreProject.Controllers
                 if (model.ImageUrl != null && model.ImageUrl.Length > 0)
                 {
                     var uploadDir = @"images/employee";
-                    var filname = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
-                    var extension = Path.GetExtension(model.ImageUrl.FileName);
-                    var webroot = _hostingEnvironment.ContentRootPath;
-                    filname = DateTime.UtcNow.ToString("yymmssfff") + filname.ToString() + extension;
-                    var path = Path.Combine(webroot, uploadDir);
-                    await model.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));
-                    employee.ImageUrl = "/" + uploadDir + "/" + filname;
+                    //var filname = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
+                    //var extension = Path.GetExtension(model.ImageUrl.FileName);
+                    //var webroot = _hostingEnvironment.ContentRootPath;
+                    //filname = DateTime.UtcNow.ToString("yymmssfff") + filname.ToString() + extension;
+                    //var path = Path.Combine(webroot, uploadDir);
+                    //await model.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));
+                    //employee.ImageUrl = "/" + uploadDir + "/" + filname;
+                    employee.ImageUrl = "/" + uploadDir + "/" + "190204129Jose.jpg";
                 }
                 await _employeeservices.CreateAsync(employee);
                 return RedirectToAction(nameof(Index));
@@ -156,14 +157,14 @@ namespace plethocoreProject.Controllers
                     employee.Designation = emp.Designation;
                     if (emp.ImageUrl != null && emp.ImageUrl.Length > 0)
                     {
-                        //var uploadDir = @"images/employee";
+                        var uploadDir = @"images/employee";
                         //var filname = Path.GetFileNameWithoutExtension(emp.ImageUrl.FileName);
                         //var extension = Path.GetExtension(emp.ImageUrl.FileName);
                         //var webroot = _hostingEnvironment.ContentRootPath;
                         //filname = DateTime.UtcNow.ToString("yymmssfff") + filname.ToString() + extension;
                         //var path = Path.Combine(webroot, uploadDir);
                         //await emp.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));
-                        //employee.ImageUrl = "/" + uploadDir + "/" + filname;
+                        employee.ImageUrl = "/" + uploadDir + "/" + "191903589Mike.jpg";
                     }
                     await _employeeservices.UpdateAsync(employee);
                     return RedirectToAction(nameof(Index));

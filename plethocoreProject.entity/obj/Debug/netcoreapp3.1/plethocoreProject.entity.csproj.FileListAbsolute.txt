@@ -6,3 +6,4 @@ E:\Project Repositories\pletho Project\plethocoreProject.entity\obj\Debug\netcor
 E:\Project Repositories\pletho Project\plethocoreProject.entity\obj\Debug\netcoreapp3.1\plethocoreProject.entity.AssemblyInfo.cs
 E:\Project Repositories\pletho Project\plethocoreProject.entity\obj\Debug\netcoreapp3.1\plethocoreProject.entity.dll
 E:\Project Repositories\pletho Project\plethocoreProject.entity\obj\Debug\netcoreapp3.1\plethocoreProject.entity.pdb
+E:\Project Repositories\pletho Project\plethocoreProject.entity\obj\Debug\netcoreapp3.1\plethocoreProject.entity.csprojAssemblyReference.cache

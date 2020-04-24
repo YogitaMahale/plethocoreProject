@@ -88,3 +88,13 @@ E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1
 E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\plethocoreProject.csproj.CoreCompileInputs.cache
 E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\plethocoreProject.MvcApplicationPartsAssemblyInfo.cs
 E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\plethocoreProject.MvcApplicationPartsAssemblyInfo.cache
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+E:\Project Repositories\pletho Project\plethocoreProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Project Repositories\pletho Project\plethocoreProject\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Project Repositories\pletho Project\plethocoreProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\Project Repositories\pletho Project\plethocoreProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

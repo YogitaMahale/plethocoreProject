@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plethocoreProject", "plethocoreProject.csproj", "{6706E841-EFFB-40B1-B976-484077C79460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plethocoreProject", "plethocoreProject.csproj", "{6706E841-EFFB-40B1-B976-484077C79460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plethocoreProject.entity", "..\plethocoreProject.entity\plethocoreProject.entity.csproj", "{7DA9E4B1-621D-4CD4-80CF-7ABCC97B429B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plethocoreProject.entity", "..\plethocoreProject.entity\plethocoreProject.entity.csproj", "{7DA9E4B1-621D-4CD4-80CF-7ABCC97B429B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plethocoreProject.services", "..\plethocoreProject.services\plethocoreProject.services.csproj", "{D4CEDFF8-F79C-4435-8E73-DE2F88FBD2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plethocoreProject.services", "..\plethocoreProject.services\plethocoreProject.services.csproj", "{D4CEDFF8-F79C-4435-8E73-DE2F88FBD2A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plethocoreProject.persistence", "..\plethocoreProject.persistence\plethocoreProject.persistence.csproj", "{CC5D9A82-A53E-4624-9D9A-E284D993B661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plethocoreProject.persistence", "..\plethocoreProject.persistence\plethocoreProject.persistence.csproj", "{CC5D9A82-A53E-4624-9D9A-E284D993B661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
