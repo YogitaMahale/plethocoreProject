@@ -22,9 +22,12 @@ using Microsoft.EntityFrameworkCore;
 using plethocoreProject.persistence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using paycompute.services.Implementation;
+ 
 using Microsoft.Extensions.Hosting;
 using plethocoreProject.services;
+using plethocoreProject.services.Implementation;
+ 
+
 namespace plethocoreProject
 {
 
@@ -47,6 +50,9 @@ namespace plethocoreProject
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddScoped<IEmployeeServices, EmployeeService>();
+            services.AddScoped<IpaycompuatuationServices, paycompuatuationServices>();
+            services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
+            services.AddScoped<ITaxservices, Taxservices>();
             services.AddControllersWithViews(); 
             services.AddRazorPages();
 

@@ -9,7 +9,7 @@ using System.Linq;
 using plethocoreProject.services;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace paycompute.services.Implementation
+namespace plethocoreProject.services.Implementation
 {
     public class EmployeeService : IEmployeeServices
     {

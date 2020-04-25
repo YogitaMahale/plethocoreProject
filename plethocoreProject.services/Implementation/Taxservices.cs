@@ -4,7 +4,7 @@ using System.Text;
 
 namespace plethocoreProject.services.Implementation
 {
-    class Taxservices : ITaxservices
+  public   class Taxservices : ITaxservices
     {
         private decimal taxRate;
         private decimal tax;

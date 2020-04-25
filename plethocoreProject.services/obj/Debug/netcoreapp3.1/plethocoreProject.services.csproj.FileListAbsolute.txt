@@ -6,9 +6,9 @@ E:\Project Repositories\pletho Project\plethocoreProject.services\bin\Debug\netc
 E:\Project Repositories\pletho Project\plethocoreProject.services\bin\Debug\netcoreapp3.1\plethocoreProject.entity.pdb
 E:\Project Repositories\pletho Project\plethocoreProject.services\bin\Debug\netcoreapp3.1\plethocoreProject.persistence.pdb
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.csprojAssemblyReference.cache
+E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.csproj.CoreCompileInputs.cache
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.AssemblyInfoInputs.cache
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.AssemblyInfo.cs
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.csproj.CopyComplete
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.dll
 E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.pdb
-E:\Project Repositories\pletho Project\plethocoreProject.services\obj\Debug\netcoreapp3.1\plethocoreProject.services.csproj.CoreCompileInputs.cache

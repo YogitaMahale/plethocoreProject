@@ -52,7 +52,7 @@ namespace plethocoreProject.Controllers
                 Employee = x.Employee
 
             });
-            return View();
+            return View(payrecords);
 
         }
 
@@ -100,5 +100,88 @@ namespace plethocoreProject.Controllers
             ViewBag.taxYears = _paycompuatuationServices.GetAllTaxYear();
             return View();
         }
+
+        public IActionResult Details(int id)
+        {
+            var paymentrecord = _paycompuatuationServices.GetById(id);
+            if(paymentrecord==null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var model = new PaymentRecordDetailsViewModel()
+                {
+                    Id = paymentrecord.Id,
+                    EmployeeId = paymentrecord.EmployeeId,
+                    FullName = paymentrecord.FullName,
+                    NiNo = paymentrecord.NiNo,
+                    PayDate = paymentrecord.PayDate,
+                    PayMonth = paymentrecord.PayMonth,
+                    TaxYearId = paymentrecord.TaxYearId,
+                    Year = _paycompuatuationServices.GetTaxYearById(paymentrecord.TaxYearId).YearofTax,
+                    TaxCode = paymentrecord.TaxCode,
+                    HourlyRate = paymentrecord.HourlyRate,
+                    HoursWorked = paymentrecord.HoursWorkd,
+                    ContractualHours = paymentrecord.ContractualHours,
+                    OvertimeHours = paymentrecord.OverTimeHours,
+                    OvertimeRate = _paycompuatuationServices.OvertimeRate(paymentrecord.HourlyRate),
+                    ContractualEarnings = paymentrecord.ContractualEarnings,
+                    OvertimeEarnings = paymentrecord.OvertimeEarnings,
+                    Tax = paymentrecord.Tax,
+                    NIC = paymentrecord.NIC,
+                    SLC = paymentrecord.SLC,
+                    TotalEarnings = paymentrecord.TotalEarnings,
+                    TotalDeduction = paymentrecord.TotalDeduction,
+                    Employee = paymentrecord.Employee,
+                    TaxYear = paymentrecord.TaxYear,
+                    NetPayment = paymentrecord.NetPayment
+
+                };
+            }
+            return View(paymentrecord);
+        }
+        [HttpGet ]
+        public IActionResult Payslip(int id)
+        {
+            var paymentrecord = _paycompuatuationServices.GetById(id);
+            if (paymentrecord == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var model = new PaymentRecordDetailsViewModel()
+                {
+                    Id = paymentrecord.Id,
+                    EmployeeId = paymentrecord.EmployeeId,
+                    FullName = paymentrecord.FullName,
+                    NiNo = paymentrecord.NiNo,
+                    PayDate = paymentrecord.PayDate,
+                    PayMonth = paymentrecord.PayMonth,
+                    TaxYearId = paymentrecord.TaxYearId,
+                    Year = _paycompuatuationServices.GetTaxYearById(paymentrecord.TaxYearId).YearofTax,
+                    TaxCode = paymentrecord.TaxCode,
+                    HourlyRate = paymentrecord.HourlyRate,
+                    HoursWorked = paymentrecord.HoursWorkd,
+                    ContractualHours = paymentrecord.ContractualHours,
+                    OvertimeHours = paymentrecord.OverTimeHours,
+                    OvertimeRate = _paycompuatuationServices.OvertimeRate(paymentrecord.HourlyRate),
+                    ContractualEarnings = paymentrecord.ContractualEarnings,
+                    OvertimeEarnings = paymentrecord.OvertimeEarnings,
+                    Tax = paymentrecord.Tax,
+                    NIC = paymentrecord.NIC,
+                    SLC = paymentrecord.SLC,
+                    TotalEarnings = paymentrecord.TotalEarnings,
+                    TotalDeduction = paymentrecord.TotalDeduction,
+                    Employee = paymentrecord.Employee,
+                    TaxYear = paymentrecord.TaxYear,
+                    NetPayment = paymentrecord.NetPayment
+
+                };
+            }
+            return View(paymentrecord);
+        }
+
     }
 }
